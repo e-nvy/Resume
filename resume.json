@@ -1,0 +1,181 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Work Experince",
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": "Certificates/Awards",
+    "education": "Education"
+  },
+  "basics": {
+    "location": {
+      "address": "Ludhiana, Punjab, India"
+    },
+    "name": "Tanveer Singh",
+    "email": "tanveergill022@gmail.com",
+    "phone": "+918847267859",
+    "website": "https://www.linkedin.com/in/tanveer-singh-2629501b9/"
+  },
+  "education": [
+    {
+      "location": "Ludhiana, Punjab",
+      "area": "Computer Science",
+      "endDate": "Jun 2023",
+      "gpa": "7.3",
+      "institution": "Guru Nanak Dev Engineering College",
+      "studyType": "B.Tech in Computer Science Engineering",
+      "startDate": "July 2019"
+    },
+    {
+      "institution": "Jawahar Navodaya Vidyalaya",
+      "location": "Ludhiana, Punjab",
+      "studyType": "12th",
+      "area": "Non-medical",
+      "gpa": "7",
+      "startDate": "July 2018",
+      "endDate": "Jun 2019"
+    }
+  ],
+  "work": [
+    {
+      "website": "",
+      "startDate": "July 2022",
+      "endDate": "Jan 2023",
+      "highlights": [
+        "Develop and implement web applications using Frappe framework for the \"Construction and Maintenance Cell\" project, ensuring efficient and reliable functionality.",
+        "Configure and manage monolithic services, such as Email and LDAP authentication, along with a microservice Single Sign-On system, to enhance user experience and streamline access control.",
+        "Customize and create a specialized Ubuntu Image for developers, preinstalling essential tools, and setting up the development environment to facilitate smooth onboarding and efficient development processes.",
+        "Assume the role of a sys admin, creating and maintaining simple bash scripts to automate various tasks, thereby optimizing workflow and reducing manual intervention.",
+        "Establish and maintain web server configurations using Nginx, ensuring proper routing and handling of incoming requests, while also enabling seamless integration with the ERP project and other components of the system. Additionally, set up and manage a MariaDB database for the \"Construction and Maintenance Cell\" project, and implement multi-tenancy using Nginx for improved resource utilization and isolation of tenant data."
+      ],
+      "company": "Indusrital Training in Software Development Centre(GNDEC)",
+      "position": "Software Engineer/Sys Admin",
+      "location": "Ludhiana, Punjab"
+    },
+    {
+      "highlights": [
+        "Independently design and develop a Multi-Machine Web Application Deployment project, utilizing Vagrant and VirtualBox, to showcase a comprehensive setup of a web application across five virtual machines.",
+        "Successfully containerize a dynamic marketing website template using Docker in the DockerizedMarketingSite project, enabling easy deployment, management, and distribution of the website.",
+        "Demonstrate proficiency in handling multi-container web application deployments with Docker in the \"Multi-Container-Web-Application-Deployment-with-Docker\" project, skillfully integrating various components such as a database server, memcached server, RabbitMQ server, and web servers in isolated Docker containers.",
+        "Utilize Django to create a photography website independently, showcasing technical expertise in web development and design, while meeting the specific requirements and aesthetics for the project.",
+        "Apply self-taught experience and expertise in software development to all projects, ensuring efficient code implementation, system scalability, and continuous improvement in web application deployment and containerization techniques."
+      ],
+      "company": "Self-taught Experience",
+      "position": "Software Enginneer",
+      "location": "Ludhiana, Punjab"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Language",
+      "level": "",
+      "keywords": [
+        "Python",
+        "Bash",
+        "C++",
+        "Html",
+        "CSS3"
+      ]
+    },
+    {
+      "keywords": [
+        "Django",
+        "Frappe",
+        "Docker",
+        "Vagrant",
+        "Libreoffice"
+      ],
+      "name": "Tools/Frameworks"
+    }
+  ],
+  "projects": [
+    {
+      "description": "The Multi-Machine Web Application Deployment project showcased a comprehensive setup of a web application across five virtual machines using Vagrant and VirtualBox as the virtualization provider. The application stack included a database server (DB), a memcached server (Memcache), a RabbitMQ server (RabbitMQ), and two web servers running Tomcat and Nginx. Utilizing Vagrant's power, I efficiently managed these virtual machine environments, allowing for seamless deployment and scaling of the application components.",
+      "url": "https://github.com/e-nvy/Multi-Machine-Web-Application-Deployment",
+      "keywords": [
+        "Vagrant",
+        "Bash",
+        "TomCat",
+        "Mariadb",
+        "Mem Cached",
+        "Nginx"
+      ],
+      "name": "Multi-Machine Web Application Deployment with Vagrant"
+    },
+    {
+      "keywords": [
+        "Docker",
+        "TomCat",
+        "Nginx",
+        "Mariadb"
+      ],
+      "name": "Multi-Container Web Application Deployment with Docker",
+      "description": "This project showcased the integration of various components within isolated Docker containers. The application stack included a database server (DB), memcached server (Memcache), RabbitMQ server (RabbitMQ), and two web servers running Tomcat and Nginx. By deploying these components in separate containers, I achieved efficient resource management and simplified scalability. Docker's containerization allowed for easy deployment of the entire web application stack, providing a reliable and flexible environment for hosting the application.",
+      "url": "https://github.com/e-nvy/Multi-Container-Web-Application-Deployment-with-Docker"
+    },
+    {
+      "keywords": [
+        "Frappe Framework",
+        "Python",
+        "Nginx",
+        "Mariadb"
+      ],
+      "name": "Construction and Maintenance Cell in Frappe Framework (Python-based ERP Project)",
+      "description": "In this project, I developed a web application named \"Construction and Maintenance Cell\" using the Frappe framework, a Python-based ERP platform. The application aimed to streamline construction and maintenance processes for businesses. I set up monolithic services, including email and LDAP authentication, and implemented a microservice Single Sign-On (SSO) for enhanced security. Implementing multi-tenancy using Nginx ensured efficient resource utilization for multiple clients.",
+      "url": "erp.gndec.ac.in"
+    },
+    {
+      "keywords": [
+        "Docker",
+        "Html",
+        "Css"
+      ],
+      "name": "Dockerized Marketing Site",
+      "description": "In the Dockerized Marketing Site project, I demonstrated the process of containerizing a dynamic marketing website template using Docker. By leveraging Docker, I transformed the website template from www.tooplate.com into a Docker container. This containerization process simplified the deployment, management, and distribution of the marketing website. Docker's isolation and portability features ensured the website could be easily run on various environments without compatibility issues",
+      "url": "https://github.com/e-nvy/DockerizedMarketingSite"
+    },
+    {
+      "keywords": [
+        "Frappe",
+        "Python",
+        "Mariadb"
+      ],
+      "name": "Library Management System",
+      "description": "I designed and implemented a Library Management System for our college, utilizing the Frappe framework. The system boasts a well-structured database, enabling efficient library membership management. It allows users to track individual memberships, borrowed articles (books, magazines, and newspapers), and dates of returns. Moreover, it efficiently calculates fines for late book returns, ensuring smooth library operations and enhanced user experience.",
+      "url": "erp.gndec.ac.in"
+    },
+    {
+      "keywords": [
+        "Frappe",
+        "Python",
+        "Mariadb"
+      ],
+      "name": " Payroll Management System",
+      "description": "My team and I successfully crafted a Payroll Management System for our College using the Frappe framework. The system efficiently calculates and processes teacher/employee salaries. It automates email notifications, generates salary slips, and seamlessly integrates with the bank, ensuring a streamlined and error-free payroll process.",
+      "url": "erp.gndec.ac.in"
+    }
+  ],
+  "awards": [
+    {
+      "title": "DevOps Beginners to Advanced with Projects Certificate",
+      "date": "Jul. 10,2023",
+      "awarder": "Imran Teli",
+      "summary": "Course completion certificate"
+    },
+    {
+      "title": "Python and Django Full Stack Web Developer Bootcamp Certificate",
+      "date": "Dec. 2,2022",
+      "awarder": "Jose Portilla",
+      "summary": "Course completion certificate"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "education",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
