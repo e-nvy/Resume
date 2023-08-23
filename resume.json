@@ -1,5 +1,5 @@
 {
-  "selectedTemplate": 1,
+  "selectedTemplate": 2,
   "headings": {
     "work": "Work Experince",
     "skills": "Skills",
@@ -21,7 +21,7 @@
       "location": "Ludhiana, Punjab",
       "area": "Computer Science",
       "endDate": "Jun 2023",
-      "gpa": "7.3",
+      "gpa": "7.68",
       "institution": "Guru Nanak Dev Engineering College",
       "studyType": "B.Tech in Computer Science Engineering",
       "startDate": "July 2019"
@@ -54,7 +54,7 @@
     },
     {
       "highlights": [
-        "Independently design and develop a Multi-Machine Web Application Deployment project, utilizing Vagrant and VirtualBox, to showcase a comprehensive setup of a web application across five virtual machines.",
+        "Independently built Jenkins CICD pipeline for TomCat-based Vprofile, proficiently utilizing AWS services and Ansible for seamless provisioning and task automation",
         "Successfully containerize a dynamic marketing website template using Docker in the DockerizedMarketingSite project, enabling easy deployment, management, and distribution of the website.",
         "Demonstrate proficiency in handling multi-container web application deployments with Docker in the \"Multi-Container-Web-Application-Deployment-with-Docker\" project, skillfully integrating various components such as a database server, memcached server, RabbitMQ server, and web servers in isolated Docker containers.",
         "Utilize Django to create a photography website independently, showcasing technical expertise in web development and design, while meeting the specific requirements and aesthetics for the project.",
@@ -79,16 +79,32 @@
     },
     {
       "keywords": [
-        "Django",
+        "Jenkins",
         "Frappe",
         "Docker",
         "Vagrant",
-        "Libreoffice"
+        "Libreoffice",
+        "Django",
+        "Ansible",
+        "Git",
+        "AWS"
       ],
       "name": "Tools/Frameworks"
     }
   ],
   "projects": [
+    {
+      "keywords": [
+        "Jenkins",
+        "AWS",
+        "Ansible",
+        "SonarQube",
+        "Nexus repository"
+      ],
+      "name": "Vprofile(Tomcat)",
+      "description": "Vprofile project utilizing Jenkins for CICD pipeline, AWS for infrastructure, Ansible for provisioning. Employed SonarQube for code analysis and quality assurance. Leveraged Nexus repository for artifact storage, enabling efficient Tomcat-based VProfile deployment with optimal testing and analysis integration.",
+      "url": "https://github.com/e-nvy/Vprofile-CiCd.git"
+    },
     {
       "description": "The Multi-Machine Web Application Deployment project showcased a comprehensive setup of a web application across five virtual machines using Vagrant and VirtualBox as the virtualization provider. The application stack included a database server (DB), a memcached server (Memcache), a RabbitMQ server (RabbitMQ), and two web servers running Tomcat and Nginx. Utilizing Vagrant's power, I efficiently managed these virtual machine environments, allowing for seamless deployment and scaling of the application components.",
       "url": "https://github.com/e-nvy/Multi-Machine-Web-Application-Deployment",
@@ -172,8 +188,8 @@
   "sections": [
     "templates",
     "profile",
-    "work",
     "education",
+    "work",
     "skills",
     "projects",
     "awards"
